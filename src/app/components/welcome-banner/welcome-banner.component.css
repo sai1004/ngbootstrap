@@ -1,0 +1,34 @@
+.banner {
+  background-image: url(../../../assets/img/hero-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 400px;
+}
+
+.banner p {
+  padding-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.btn-outline-primary {
+  color: white !important;
+  border-color: white !important;
+}
+
+.btn {
+  border-radius: 1.25rem !important;
+}
