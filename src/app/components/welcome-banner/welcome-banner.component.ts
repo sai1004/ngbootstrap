@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Hero } from '../../entities/hero'
+ 
 
 @Component({
   selector: 'app-welcome-banner',
@@ -8,20 +8,12 @@ import { Hero } from '../../entities/hero'
 })
 export class WelcomeBannerComponent implements OnInit {
 
-  @Input() 
-  hero: Hero;
-
-  @Input('master')
-  masterName: string;
 
 
-  posts: any = [
-    {
-      'name': 'somthing'
-    }
-  ]
-
-  constructor() { }
+  constructor() {
+    
+    
+  }
 
   ngOnInit() {
   }

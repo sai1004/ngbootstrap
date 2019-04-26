@@ -7,6 +7,7 @@ import { WelcomePageComponent } from './pages/welcome-page/welcome-page.componen
 import { WelcomeNavComponent } from './components/welcome-nav/welcome-nav.component';
 import { WelcomeBannerComponent } from './components/welcome-banner/welcome-banner.component';
 import { WelcomeAboutUsComponent } from './components/welcome-about-us/welcome-about-us.component';
+import { WelcomeFactsComponent } from './components/welcome-facts/welcome-facts.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { WelcomeAboutUsComponent } from './components/welcome-about-us/welcome-a
     WelcomePageComponent,
     WelcomeNavComponent,
     WelcomeBannerComponent,
-    WelcomeAboutUsComponent
+    WelcomeAboutUsComponent,
+    WelcomeFactsComponent
   ],
   imports: [
     BrowserModule,
