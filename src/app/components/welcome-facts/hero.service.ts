@@ -1,0 +1,34 @@
+import { Injectable, Input } from "@angular/core";
+import { Posts } from "src/app/entities/hero";
+
+@Injectable({
+  providedIn: "root"
+})
+export class HeroService {
+
+  @Input()
+  posts: Posts[] = [
+    {'author': 'sai',
+     'title':'Blog post 1',
+     'content':'First Blog Post',
+     'country':'INDIA',
+     'date_posted':'April 29, 2018'
+     },
+    {'author': 'sam',
+     'title': 'Blog post 2',
+     'content': 'Second Blog Post',
+     'country': 'INDIA',
+     'date_posted': 'April 5, 2018'
+     },
+    {'author': 'jake',
+     'title': 'Blog post 3',
+     'content':'Third Blog Post',
+     'country': 'INDIA',
+     'date_posted': 'April 2, 2018'
+     },
+  ];
+
+  getItems() {
+    return this.posts;
+  }
+}

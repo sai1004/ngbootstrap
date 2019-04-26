@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { Heros } from "src/app/entities/hero";
+// import { Heros } from "src/app/entities/hero";
+import { HeroService } from './hero.service';
 
 @Component({
   selector: "app-welcome-facts",
@@ -7,24 +8,23 @@ import { Heros } from "src/app/entities/hero";
   styleUrls: ["./welcome-facts.component.css"]
 })
 export class WelcomeFactsComponent implements OnInit {
-  @Input()
-  heros: Heros ;
+ 
+  posts: any = []
 
 
-   name:string = "John"; 
-   score1:number = 50;
-   score2:number = 42.50;
-
-   sum = this.score1 + this.score2 
-
-   console.log(sum);
-   
-   
+  constructor( private heroService:HeroService) {
+    this.getItems();
+  }
+  
 
 
+getItems(){
+  this.posts = this.heroService.getItems();
+}
 
-
-  constructor() {}
 
   ngOnInit() {}
+
+ 
+
 }
