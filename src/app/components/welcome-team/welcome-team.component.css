@@ -1,0 +1,13 @@
+a{
+    margin: 5px;
+    color: darkgray;
+    cursor: pointer;
+    height: 30px;
+
+}
+
+
+a:hover{
+
+    color: rgb(34, 194, 194)
+}

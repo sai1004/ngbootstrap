@@ -8,6 +8,10 @@ import { WelcomeNavComponent } from './components/welcome-nav/welcome-nav.compon
 import { WelcomeBannerComponent } from './components/welcome-banner/welcome-banner.component';
 import { WelcomeAboutUsComponent } from './components/welcome-about-us/welcome-about-us.component';
 import { WelcomeFactsComponent } from './components/welcome-facts/welcome-facts.component';
+import { WelcomeServiceComponent } from './components/welcome-service/welcome-service.component';
+import { WelcomeFootComponent } from './components/welcome-foot/welcome-foot.component';
+import { WelcomeTeamComponent } from './components/welcome-team/welcome-team.component';
+import { WelcomePortfolioComponent } from './components/welcome-portfolio/welcome-portfolio.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { WelcomeFactsComponent } from './components/welcome-facts/welcome-facts.
     WelcomeNavComponent,
     WelcomeBannerComponent,
     WelcomeAboutUsComponent,
-    WelcomeFactsComponent
+    WelcomeFactsComponent,
+    WelcomeServiceComponent,
+    WelcomeFootComponent,
+    WelcomeTeamComponent,
+    WelcomePortfolioComponent
   ],
   imports: [
     BrowserModule,

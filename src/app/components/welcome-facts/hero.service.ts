@@ -1,10 +1,13 @@
-import { Injectable, Input } from "@angular/core";
+import { Injectable, Input, Output } from "@angular/core";
 import { Posts } from "src/app/entities/hero";
+import { EventEmitter } from 'events';
 
 @Injectable({
   providedIn: "root"
 })
 export class HeroService {
+
+
 
   @Input()
   posts: Posts[] = [

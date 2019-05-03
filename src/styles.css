@@ -4,5 +4,12 @@ html,body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+  
     /* height: 100%; */
+}
+
+*{
+    /* max-width: 100%; */
+    /* clear: both; */
+    /* box-sizing: border-box; */
 }
