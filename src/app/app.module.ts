@@ -12,6 +12,7 @@ import { WelcomeServiceComponent } from './components/welcome-service/welcome-se
 import { WelcomeFootComponent } from './components/welcome-foot/welcome-foot.component';
 import { WelcomeTeamComponent } from './components/welcome-team/welcome-team.component';
 import { WelcomePortfolioComponent } from './components/welcome-portfolio/welcome-portfolio.component';
+import { WelcomePracticeComponent } from './components/welcome-practice/welcome-practice.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { WelcomePortfolioComponent } from './components/welcome-portfolio/welcom
     WelcomeServiceComponent,
     WelcomeFootComponent,
     WelcomeTeamComponent,
-    WelcomePortfolioComponent
+    WelcomePortfolioComponent,
+    WelcomePracticeComponent
   ],
   imports: [
     BrowserModule,
