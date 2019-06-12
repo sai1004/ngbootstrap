@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
- 
 
 @Component({
   selector: 'app-welcome-banner',
@@ -11,8 +10,6 @@ export class WelcomeBannerComponent implements OnInit {
 
 
   constructor() {
-    
-    
   }
 
   ngOnInit() {

@@ -1,0 +1,32 @@
+.banner {
+  background-image: url(../../../assets/img/jobs/slider-01.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+
+input {
+  height: 50px;
+  width: 340px;
+border: none;
+
+}
+
+select {
+  height: 50px;
+  width: 340px;
+  border: none;
+
+
+}
+
+button {
+  height: 50px;
+  width: 180px;
+border: none;
+  
+
+
+
+}

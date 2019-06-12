@@ -13,6 +13,17 @@ import { WelcomeFootComponent } from './components/welcome-foot/welcome-foot.com
 import { WelcomeTeamComponent } from './components/welcome-team/welcome-team.component';
 import { WelcomePortfolioComponent } from './components/welcome-portfolio/welcome-portfolio.component';
 import { WelcomePracticeComponent } from './components/welcome-practice/welcome-practice.component';
+import { JobsPageComponent } from './pages/jobs-page/jobs-page.component';
+import { JobsBannerComponent } from './components/jobs-banner/jobs-banner.component';
+import { JobsCardsComponent } from './components/jobs-cards/jobs-cards.component';
+import { JobsReportsComponent } from './components/jobs-reports/jobs-reports.component';
+import { JobsPopularComponent } from './components/jobs-popular/jobs-popular.component';
+import { JobsFeedbackComponent } from './components/jobs-feedback/jobs-feedback.component';
+import { JobsPlansComponent } from './components/jobs-plans/jobs-plans.component';
+import { JobsPortfolioComponent } from './components/jobs-portfolio/jobs-portfolio.component';
+import { JobsNewsletterComponent } from './components/jobs-newsletter/jobs-newsletter.component';
+import { JobsFooterComponent } from './components/jobs-footer/jobs-footer.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +37,17 @@ import { WelcomePracticeComponent } from './components/welcome-practice/welcome-
     WelcomeFootComponent,
     WelcomeTeamComponent,
     WelcomePortfolioComponent,
-    WelcomePracticeComponent
+    WelcomePracticeComponent,
+    JobsPageComponent,
+    JobsBannerComponent,
+    JobsCardsComponent,
+    JobsReportsComponent,
+    JobsPopularComponent,
+    JobsFeedbackComponent,
+    JobsPlansComponent,
+    JobsPortfolioComponent,
+    JobsNewsletterComponent,
+    JobsFooterComponent
   ],
   imports: [
     BrowserModule,
