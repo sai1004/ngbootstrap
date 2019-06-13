@@ -1,0 +1,24 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 50px;
+
+  }
+  
+  p {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    
+  }
+
+  button {
+    height: 45px;
+    width: 200px;
+    border-radius: 2px;
+    border: none;
+    background-color: #da0833;
+    color: white;
+  }

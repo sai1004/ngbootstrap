@@ -1,0 +1,49 @@
+.container-fluid {
+
+  background-color: #242c36
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  line-height: 50px;
+  color: whitesmoke
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 14px;
+  ;
+  font-weight: normal;
+  line-height: 20px;
+  color: gray
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: solid 1px gray;
+  border-radius: 1px;
+  height: 30px;
+  width: 200px;
+  background: transparent;
+}
+
+textarea {
+
+  border: solid 1px gray;
+  border-radius: 1px;
+  background: transparent
+}
+
+button {
+  height: 45px;
+  width: 100px;
+  border-radius: 2px;
+  border: none;
+  background-color: #da0833;
+  color: white;
+}
