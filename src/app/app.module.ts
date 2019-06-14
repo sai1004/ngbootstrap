@@ -23,6 +23,7 @@ import { JobsPlansComponent } from './components/jobs-plans/jobs-plans.component
 import { JobsPortfolioComponent } from './components/jobs-portfolio/jobs-portfolio.component';
 import { JobsNewsletterComponent } from './components/jobs-newsletter/jobs-newsletter.component';
 import { JobsFooterComponent } from './components/jobs-footer/jobs-footer.component';
+import { TemplatesComponent } from './pages/templates/templates.component';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { JobsFooterComponent } from './components/jobs-footer/jobs-footer.compon
     JobsPlansComponent,
     JobsPortfolioComponent,
     JobsNewsletterComponent,
-    JobsFooterComponent
+    JobsFooterComponent,
+    TemplatesComponent
   ],
   imports: [
     BrowserModule,

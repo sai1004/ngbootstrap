@@ -9,7 +9,7 @@
 input {
   height: 50px;
   width: 340px;
-border: none;
+  border: none;
 
 }
 
@@ -24,9 +24,10 @@ select {
 button {
   height: 50px;
   width: 180px;
-border: none;
-  
-
+  border: none;
+  border-radius: 2px;
+  background-color: #da0833;
+  color: white;
 
 
 }

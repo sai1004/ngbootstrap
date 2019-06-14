@@ -1,0 +1,26 @@
+h2 {
+
+  margin-top: -53px;
+}
+
+a {
+  font-size: 18px;
+  display: inline-block;
+  background-color: whitesmoke;
+  color: rgb(80, 77, 77);
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin: 5px;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: #da0833;
+  color: white;
+
+}
