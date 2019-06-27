@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.main-head{
+  transform: translateY(250px);
+  color: white;
+}
 
 input {
   height: 50px;
