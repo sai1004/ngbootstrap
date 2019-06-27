@@ -24,3 +24,7 @@ button {
     border-radius:30px;
     border: none;
   }
+
+  button:hover{
+      color: white;
+  }
