@@ -24,6 +24,7 @@ import { JobsPortfolioComponent } from './components/jobs-portfolio/jobs-portfol
 import { JobsNewsletterComponent } from './components/jobs-newsletter/jobs-newsletter.component';
 import { JobsFooterComponent } from './components/jobs-footer/jobs-footer.component';
 import { TemplatesComponent } from './pages/templates/templates.component';
+import { MusifyPageComponent } from './pages/musify-page/musify-page.component';
 
 
 @NgModule({
@@ -49,7 +50,8 @@ import { TemplatesComponent } from './pages/templates/templates.component';
     JobsPortfolioComponent,
     JobsNewsletterComponent,
     JobsFooterComponent,
-    TemplatesComponent
+    TemplatesComponent,
+    MusifyPageComponent
   ],
   imports: [
     BrowserModule,

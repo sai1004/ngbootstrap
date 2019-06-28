@@ -1,0 +1,33 @@
+p{
+    color: #999
+  }
+
+  h3{
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+    
+  }
+
+.circle {
+  height: 80px;
+  width: 80px;
+  position: absolute; 
+  border:1px solid aqua;
+  border-radius: 50%;
+  left: 35%;
+  top:-45px;
+
+}
+
+.circle img{
+  margin-top: 15px;
+}
+
+h5{
+  padding-top: 30px;
+}
+

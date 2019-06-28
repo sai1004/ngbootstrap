@@ -11,3 +11,17 @@ a:hover{
 
     color: rgb(34, 194, 194)
 }
+
+p{
+    color: #999
+  }
+
+
+  h3{
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
