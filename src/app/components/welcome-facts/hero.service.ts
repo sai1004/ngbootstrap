@@ -1,5 +1,5 @@
 import { Injectable, Input, Output } from "@angular/core";
-import { Posts } from "src/app/entities/hero";
+import { Heros } from "src/app/entities/heros";
 import { EventEmitter } from 'events';
 
 @Injectable({
@@ -10,7 +10,7 @@ export class HeroService {
 
 
   @Input()
-  posts: Posts[] = [
+  posts: Heros[] = [
     {'author': 'sai',
      'title':'Blog post 1',
      'content':'First Blog Post',

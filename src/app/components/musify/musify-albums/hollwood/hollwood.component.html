@@ -1,0 +1,55 @@
+<section class="container" *ngFor="let item of songs">
+  <div class="row pt-3">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="{{ item.img }}" alt="illshowyou" height="210px" />
+
+        <div class="card-body">
+          <p>{{ item.name }}</p>
+          <audio controls>
+            <source src=" {{ item.audio }} " type="audio/ogg" />
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="{{ item.img }}" alt="illshowyou" height="210px" />
+
+        <div class="card-body">
+          <p>{{ item.name }}</p>
+          <audio controls>
+            <source src=" {{ item.audio }} " type="audio/ogg" />
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="{{ item.img }}" alt="illshowyou" height="210px" />
+
+        <div class="card-body">
+          <p>{{ item.name }}</p>
+          <audio controls>
+            <source src=" {{ item.audio }} " type="audio/ogg" />
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="{{ item.img }}" alt="illshowyou" height="210px" />
+
+        <div class="card-body">
+          <p>{{ item.name }}</p>
+          <audio controls>
+            <source src=" {{ item.audio }} " type="audio/ogg" />
+          </audio>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
