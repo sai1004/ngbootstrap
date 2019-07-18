@@ -30,6 +30,9 @@ import { HollwoodComponent } from "./components/musify/musify-albums/hollwood/ho
 import { TempalteDrivenComponent } from "./pages/tempalte-driven/tempalte-driven.component";
 import { ReactiveComponent } from "./pages/reactive/reactive.component";
 import { JobsCarouselComponent } from './components/jobs-carousel/jobs-carousel.component';
+import { ServicePageComponent } from './pages/service-page/service-page.component';
+import { ServiceChildOneComponent } from './components/service/service-child-one/service-child-one.component';
+import { ServiceChildtwoComponent } from './components/service/service-childtwo/service-childtwo.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +62,10 @@ import { JobsCarouselComponent } from './components/jobs-carousel/jobs-carousel.
     HollwoodComponent,
     TempalteDrivenComponent,
     ReactiveComponent,
-    JobsCarouselComponent
+    JobsCarouselComponent,
+    ServicePageComponent,
+    ServiceChildOneComponent,
+    ServiceChildtwoComponent
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],
