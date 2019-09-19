@@ -33,6 +33,7 @@ import { JobsCarouselComponent } from './components/jobs-carousel/jobs-carousel.
 import { ServicePageComponent } from './pages/service-page/service-page.component';
 import { ServiceChildOneComponent } from './components/service/service-child-one/service-child-one.component';
 import { ServiceChildtwoComponent } from './components/service/service-childtwo/service-childtwo.component';
+import { JobsNavComponent } from './components/jobs-nav/jobs-nav.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,8 @@ import { ServiceChildtwoComponent } from './components/service/service-childtwo/
     JobsCarouselComponent,
     ServicePageComponent,
     ServiceChildOneComponent,
-    ServiceChildtwoComponent
+    ServiceChildtwoComponent,
+    JobsNavComponent
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],
